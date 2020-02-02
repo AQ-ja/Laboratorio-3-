@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="407dp"
+        android:layout_height="152dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/guate"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="67dp"
+        android:layout_height="58dp"
+        android:background="#00FFFFFF"
+        android:onClick="launchSecondActivity"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.139"
+        app:srcCompat="@drawable/round_explore_black_18dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Guatemala, es el Corazón del Mundo Maya. Viva, mágica, mística y ancestral. Su historia se remonta a cuatro mil años, cuando emergió la civilización maya, cuyo legado perdura hoy en día con las tradiciones y cultura de su gente.  Guatemala es un país de extraordinaria riqueza cultural y natural y con una ubicación geográfica privilegiada. Las distancias de lugar a lugar son cortas, lo que permite visitar varias regiones en un mismo viaje.  Es un país único, de aventura, inolvidable, entre su pasado y presente, además de la diversidad de actividades que ofrece al visitante. Conocido como el país de la eterna primavera, goza de un clima agradable que permite visitarlo en cualquier época del año. Además, ofrece varias posibilidades de acceso desde cualquier parte del mundo, contando con dos aeropuertos internacionales: La Aurora, situado en la ciudad capital; y Mundo Maya, ubicado en el departamento de Petén.  El colorido de sus mercados de artesanías y de sus trajes regionales, la hospitalidad de su gente, la belleza de sus paisajes naturales que enmarcan volcanes, lagos, ríos y montañas, hacen que Guatemala quede grabada en el corazón de quienes la visitan. Su patrimonio natural, cultural e histórico puede descubrirse en cada rincón del país.  Guatemala alberga la mayor cantidad de sitios arqueológicos de la cultura maya, rodeados de una impresionante flora y fauna, que los convierte en verdaderos pulmones de la humanidad. La magia y el misterio del Mundo Maya subsisten en ciudades milenarias como Tikal, Yaxhá, Aguateca, Mirador, Quiriguá y Q’uma’rkaj entre otras.  Además, Guatemala ofrece ventajas en algunos segmentos específicos para los visitantes, como su ubicación estratégica, facilidades en sus terminales terrestres y marítimas, lo que la hacen un importante destino para los cruceros del Pacífico y el Atlántico. Sus recursos pesqueros en la Costa Pacífica le han dado reconocimiento como uno de los mejores lugares para la pesca del pez vela en el mundo. La variedad de más de 720 especies de aves, la convierte en un maravilloso e importante destino para observarlas. Así también, el país posee todas las características para propiciar actividades de negocios, además de ser un destino ideal para convenciones nacionales e internacionales.  Guatemala con su riqueza y diversidad ofrece numerosas formas para gozar sus vacaciones o viajes de negocios, porque pueden encontrar en un solo lugar diferentes segmentos de turismo, en sus siete maravillosas regiones."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
